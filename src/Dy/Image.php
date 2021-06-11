@@ -2,18 +2,18 @@
 
 namespace Dy;
 
-class Fenci
+class Image
 {
     /**
      * 尺寸缩放
      *
-     * @param string $src
-     * @param string $dest
-     * @param integer $width
-     * @param integer $height
+     * @param string $src 输入地址
+     * @param string $dest 输出地址
+     * @param integer $width 长度
+     * @param integer $height 高度
      * @return void|ErrorException
      */
-    public function resize(string $src, string $dest, int $width, int $height)
+    public static function resize(string $src, string $dest, int $width, int $height)
     {
     }
 
@@ -28,7 +28,7 @@ class Fenci
      * @param integer $height
      * @return void|ErrorException
      */
-    public function crop(string $src, string $dest, int $x, int $y, int $width, int $height)
+    public static function crop(string $src, string $dest, int $x, int $y, int $width, int $height)
     {
     }
 
@@ -42,7 +42,7 @@ class Fenci
      * @param integer $height
      * @return void|array|ErrorException
      */
-    public function captcha(string $dest, int $width, int $height)
+    public static function captcha(string $dest, int $width, int $height)
     {
     }
 
@@ -54,7 +54,7 @@ class Fenci
      * @param integer $width
      * @return void|bool|ErrorException
      */
-    public function qr(string $content, string $dest, int $width)
+    public static function qr(string $content, string $dest, int $width)
     {
     }
 
@@ -66,7 +66,7 @@ class Fenci
      * @param integer $padding
      * @return void|bool|ErrorException
      */
-    public function avatar(string $dest, int $width = 128, int $padding = 5)
+    public static function avatar(string $dest, int $width = 128, int $padding = 5)
     {
     }
 }

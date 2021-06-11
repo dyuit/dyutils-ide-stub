@@ -12,7 +12,7 @@ class Fenci
      *
      * @return array|ErrorException
      */
-    public function do(string $str, bool $hmm = false)
+    public static function do(string $str, bool $hmm = false)
     {
     }
 }
