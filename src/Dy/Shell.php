@@ -8,7 +8,7 @@ class Shell
      * shell
      *
      * @param string $cmd 命令
-     * @param string $str 参数
+     * @param string $flags 参数
      *
      * @return bool
      */

@@ -47,18 +47,6 @@ class Image
     }
 
     /**
-     * QR 生成
-     *
-     * @param string $content
-     * @param string $dest
-     * @param integer $width
-     * @return void|bool|ErrorException
-     */
-    public static function qr(string $content, string $dest, int $width)
-    {
-    }
-
-    /**
      * 头像生成
      *
      * @param string $dest
