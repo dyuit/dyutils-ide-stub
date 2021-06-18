@@ -9,14 +9,14 @@ class Map
      *
      * @var float
      */
-    public $lng;
+    protected $lng;
 
     /**
      * 经度
      *
      * @var float
      */
-    public $lat;
+    protected $lat;
 
     /**
      * 模式
@@ -26,7 +26,7 @@ class Map
      * 2. gcj02
      * @var int
      */
-    public $mode;
+    protected $mode;
 
     /**
      * 新建座标

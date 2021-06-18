@@ -4,31 +4,71 @@ namespace Dy;
 
 class Image
 {
+
+    /**
+     * new Image
+     *
+     * @param string $str
+     * @return Image|ErrorException
+     */
+    public function __construct(string $str)
+    {
+    }
+
+    /**
+     * new Image 空白图
+     *
+     * @param integer $width 长度
+     * @param integer $height 高度
+     * @return Image|ErrorException
+     */
+    public static function new(int $width, int $height)
+    {
+    }
+
     /**
      * 尺寸缩放
      *
-     * @param string $src 输入地址
-     * @param string $dest 输出地址
      * @param integer $width 长度
      * @param integer $height 高度
-     * @return void|ErrorException
+     * @return Image|ErrorException
      */
-    public static function resize(string $src, string $dest, int $width, int $height)
+    public function resize(int $width, int $height)
     {
     }
 
     /**
      * 截图
      *
-     * @param string $src
-     * @param string $dest
      * @param integer $x
      * @param integer $y
      * @param integer $width
      * @param integer $height
+     * @return Image|ErrorException
+     */
+    public function crop(int $x, int $y, int $width, int $height)
+    {
+    }
+
+    /**
+     * 图片覆盖
+     *
+     * @param Image $top
+     * @param integer $x
+     * @param integer $y
+     * @return Image|ErrorException
+     */
+    public function over(Image $top, int $x, int $y)
+    {
+    }
+
+    /**
+     * 截图
+     *
+     * @param string $dest
      * @return void|ErrorException
      */
-    public static function crop(string $src, string $dest, int $x, int $y, int $width, int $height)
+    public function save(string $dest)
     {
     }
 
