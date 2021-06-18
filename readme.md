@@ -21,7 +21,7 @@ composer require --dev dyutils/ide-stubs
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@git.dyuit.cn:dyutils/ide-stubs.git"
+            "url":"https://git.dyuit.cn/dyutils/ide-stubs"
         }
     ]
 }
