@@ -1,7 +1,10 @@
 {
     "name": "dyutils/ide-stubs",
     "type": "library",
-    "version": "0.1.1",
+    "description": "dyutils ide support",
+    "keywords": ["utils"],
+    "homepage": "https://git.dyuit.cn/dyutils/ide-stubs",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Erasin",
